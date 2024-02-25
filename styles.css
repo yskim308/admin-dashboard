@@ -106,6 +106,38 @@ body{
     margin: 20px; 
 }
 
+.welcome{
+    padding-left: 40px; 
+    grid-column: 1 / span 1;
+    display: flex; 
+    align-items: center;
+}
+
+.welcome-text{
+    padding: 0 20px; 
+}
+
+.welcome-text p , .welcome-text h1{
+    margin: 0;
+}
+
+.welcome-buttons{
+    grid-column: 2 / span 1; 
+}
+
+.welcome-buttons ul{
+    display: flex; 
+    justify-content: center;
+    align-items: center;
+    gap: 30px;     
+}
+
+.welcome-buttons button{
+    font-size: 20px; 
+    width: 100px;
+    height: 50px; 
+    border-radius: 20px;
+}
 
 .card-content {
     grid-column: 2/ -1; 
