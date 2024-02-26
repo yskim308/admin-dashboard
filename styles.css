@@ -169,7 +169,30 @@ body{
 
 .trending{
     display: grid; 
-    grid-template-rows: 1fr 1fr 1fr;
+    grid-template-rows: repeat(4, 1fr);
     grid-template-columns: 1fr 1fr;
-    background-color: red;
 }
+
+.trending li {
+    display: grid; 
+    grid-column: 1 / span 2;
+    grid-template-columns: 1fr 3fr;
+    grid-template-rows: 1fr 1fr;
+    margin: 10px; 
+}
+
+.trending svg {
+    grid-row: span 2; 
+    width: 60px;
+    height: 60px; 
+    align-self: center;
+    justify-self: center;
+}
+
+.trending p { 
+    margin: 0; 
+}
+.trend-header {
+    align-self: end;
+}
+
