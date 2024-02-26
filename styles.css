@@ -160,8 +160,9 @@ body{
 
 
 .cards h1{
-    font-size: 20px; 
-    padding: 10px; 
+    font-size: 30px; 
+    padding: 20px; 
+    margin: 0;
     grid-column: 1 / -1;
     justify-self: center;
 }
@@ -195,6 +196,34 @@ body{
     width: 30px;
     height: 30px; 
 }
+
+.side-cards {
+    display: grid;
+}
+
+.side-header{
+    margin: 0;
+    font-weight: 500; 
+    font-size: 20px; 
+    align-self: end;
+    padding-top: 20px; 
+}
+
+.announcements {
+    background-color: #fffbeb ;
+    border-radius: 30px; 
+    padding: 15px; 
+    margin: 0 15px; 
+}
+
+.announcements p {
+    margin: 0; 
+}
+
+.announcements .announcement-header{
+    font-weight: 700;   
+}
+
 
 .trending{
     display: grid; 
