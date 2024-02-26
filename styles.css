@@ -71,7 +71,9 @@ body{
     grid-template-rows: 1fr 1fr;
     grid-template-columns: 3fr 2fr;
     align-items: center;
-    
+    background-color: #d97706;
+    color: #fef3c7; 
+    fill: #fef3c7
 }
 
 .search{
@@ -134,15 +136,20 @@ body{
 
 .welcome-buttons button{
     font-size: 20px; 
+    font-weight: 600;
     width: 100px;
     height: 50px; 
     border-radius: 20px;
+    background-color: #92400e;
+    color: #fef3c7;
+    border: 0; 
 }
 
 .card-content {
     grid-column: 2/ -1; 
     display: grid; 
-    grid-template-columns: 3fr 1fr;
+    grid-template-columns: 4fr 1fr;
+    background-color: #fef3c7;
 }
 
 .cards{
@@ -151,17 +158,39 @@ body{
     grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
 }
 
-.project-cards h1{
-    margin: 0; 
-    padding: 0 30px; 
+
+.cards h1{
     font-size: 20px; 
+    padding: 10px; 
+    grid-column: 1 / -1;
+    justify-self: center;
 }
 
 .cards li{
+    background-color: #fffbeb;
+    border-radius: 30px; 
+    padding: 15px; 
     height: 300px; 
     margin: 0 30px 30px 30px; 
+    max-height: 250px; 
+    display: grid;
+    box-shadow: 5px 5px 15px black; 
 }
 
+.cards .bold{
+    font-weight: 700; 
+    margin: 0;  
+    height: 5%; 
+}
+
+.cards .context{
+    margin: 0; 
+}
+
+.icons{
+    justify-self: end;
+    align-self: center;
+}
 .icons svg{
     width: 30px;
     height: 30px; 
