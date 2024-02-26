@@ -158,6 +158,11 @@ body{
     grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
 }
 
+.cards .context{
+    color: #451a03;
+    font-weight: 300;
+}
+
 
 .cards h1{
     font-size: 30px; 
@@ -224,6 +229,12 @@ body{
     font-weight: 700;   
 }
 
+.announcements .announcement-details{
+    padding-bottom: 15px; 
+    color: #451a03;
+    font-weight: 300;
+}
+
 
 .trending{
     display: grid; 
@@ -248,9 +259,10 @@ body{
 }
 
 .trending p { 
-    margin: 0; 
+    margin: 0 0 0 10px; 
 }
 .trend-header {
     align-self: end;
 }
+
 
